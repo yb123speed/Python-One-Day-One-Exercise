@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{faa4e115-d47b-49d8-8162-efe96ab20c8b}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>0x0001 avatar_add_number\avatar_add_number.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="0x0001 avatar_add_number\new_avatar.jpg" />
+    <Content Include="0x0001 avatar_add_number\original.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="0x0001 avatar_add_number\avatar_add_number.py" />
+    <Compile Include="0x0002 activation_code\activation_code.py" />
+    <Compile Include="0x0003 code_Save_MySQL\code_Save_MySQL.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="0x0004 code_Save_Mongo\code_Save_Mongo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="0x0005 count_word_number\count_word_number.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="0x0006 picture_compress\picture_compress.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="0x0011 CAPTCHA\CAPTCHA.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="0x0001 avatar_add_number" />
+    <Folder Include="0x0002 activation_code" />
+    <Folder Include="0x0003 code_Save_MySQL\" />
+    <Folder Include="0x0004 code_Save_Mongo\" />
+    <Folder Include="0x0005 count_word_number\" />
+    <Folder Include="0x0006 picture_compress\" />
+    <Folder Include="0x0011 CAPTCHA\" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
