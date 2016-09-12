@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{faa4e115-d47b-49d8-8162-efe96ab20c8b}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>0x0001 avatar_add_number\avatar_add_number.py</StartupFile>
+    <StartupFile>0x0011 CAPTCHA\CAPTCHA.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
