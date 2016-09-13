@@ -1,0 +1,11 @@
+distutils
+__all__
+patch_all
+platform
+patch_for_msvc_specialized_compiler
+setuptools
+_patch_distribution_metadata_write_pkg_file
+get_unpatched
+unpatched
+sys
+_patch_distribution_metadata_write_pkg_info
