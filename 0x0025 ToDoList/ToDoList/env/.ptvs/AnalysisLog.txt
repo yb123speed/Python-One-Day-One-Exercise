@@ -2267,3 +2267,30 @@ C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Micro
 2016-09-13T17:00:35: Saving group "C:\Users\Administrator\Desktop\Python-One-Day-One-Exercise\0x0025 ToDoList\ToDoList\env\Lib\site-packages\wheel"
 2016-09-13T17:00:35: End of group "C:\Users\Administrator\Desktop\Python-One-Day-One-Exercise\0x0025 ToDoList\ToDoList\env\Lib\site-packages\wheel"
 2016-09-13T17:00:36: Deleting 0 files
+
+2016-09-14T10:31:38: Start analysis
+2016-09-14T10:31:38: [WARNING] Library was set explicitly - skipping path detection
+2016-09-14T10:31:38: IncludeModulesFromModulePath = win32com
+2016-09-14T10:31:38: Deleting 0 files
+2016-09-14T10:31:38: astropy.CallDepth = 0
+2016-09-14T10:31:38: matplotlib.CallDepth = 3
+2016-09-14T10:31:38: pandas.CallDepth = 0
+2016-09-14T10:31:38: sympy.CallDepth = 0
+2016-09-14T10:31:38: Start group "C:\Users\Administrator\Desktop\Python-One-Day-One-Exercise\0x0025 ToDoList\ToDoList\env\Lib\site-packages\jsonify" with 2 files
+2016-09-14T10:31:40: Parsing "jsonify.convert" ("C:\Users\Administrator\Desktop\Python-One-Day-One-Exercise\0x0025 ToDoList\ToDoList\env\Lib\site-packages\jsonify\convert.py")
+2016-09-14T10:31:40: Parsing "jsonify" ("C:\Users\Administrator\Desktop\Python-One-Day-One-Exercise\0x0025 ToDoList\ToDoList\env\Lib\site-packages\jsonify\__init__.py")
+2016-09-14T10:31:40: Parsing complete
+2016-09-14T10:31:40: Analyzing "jsonify.convert"
+2016-09-14T10:31:40: Analyzing "jsonify"
+2016-09-14T10:31:40: Starting analysis of 2 modules
+2016-09-14T10:31:40: Analysis complete
+2016-09-14T10:31:40: Saving group "C:\Users\Administrator\Desktop\Python-One-Day-One-Exercise\0x0025 ToDoList\ToDoList\env\Lib\site-packages\jsonify"
+2016-09-14T10:31:41: End of group "C:\Users\Administrator\Desktop\Python-One-Day-One-Exercise\0x0025 ToDoList\ToDoList\env\Lib\site-packages\jsonify"
+2016-09-14T10:31:41: Deleting 0 files
+
+2016-09-14T10:37:09: Start analysis
+2016-09-14T10:37:10: [WARNING] Library was set explicitly - skipping path detection
+2016-09-14T10:37:10: IncludeModulesFromModulePath = win32com
+2016-09-14T10:37:10: Deleting 2 files
+2016-09-14T10:37:10: Deleting "C:\Users\Administrator\Desktop\Python-One-Day-One-Exercise\0x0025 ToDoList\ToDoList\env\.ptvs\jsonify\jsonify.convert.idb"
+2016-09-14T10:37:10: Deleting "C:\Users\Administrator\Desktop\Python-One-Day-One-Exercise\0x0025 ToDoList\ToDoList\env\.ptvs\jsonify\jsonify.idb"

@@ -1,9 +1,8 @@
-"""
+﻿"""
 Routes and views for the flask application.
 """
-
 from datetime import datetime
-from flask import render_template
+from flask import *
 from ToDoList import app
 
 @app.route('/')
@@ -35,3 +34,7 @@ def about():
         year=datetime.now().year,
         message='Your application description page.'
     )
+
+@app.route('/api/test/<int:name>',methods=['POST','GET'])
+def test(name=None):
+    return jsonify(name)
