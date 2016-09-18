@@ -1,7 +1,7 @@
-#!/usr/bin/python
+Ôªø#!/usr/bin/python
 #_*_ coding:utf-8 _*_
 """
-“¿¿µpymongo
+‰æùËµñpymongo
 @author Lon Chaney
 """
 import pymongo
@@ -13,6 +13,7 @@ try:
         keys = f.readlines()
         index = 1
         for key in keys:
+            print key
             db.things.insert({"id":index,"key":key})
             index = index + 1
     print "Action Success!"

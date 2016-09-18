@@ -1,0 +1,9 @@
+_C_API
+__doc__
+__file__
+__name__
+__package__
+_bson_to_dict
+_dict_to_bson
+_element_to_dict
+decode_all

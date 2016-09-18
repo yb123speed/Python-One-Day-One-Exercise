@@ -30,11 +30,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="mongodbAction\MongoAction.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mongodbAction\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="ToDoList\__init__.py" />
     <Compile Include="ToDoList\views.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="mongodbAction\" />
     <Folder Include="ToDoList\" />
     <Folder Include="ToDoList\static\" />
     <Folder Include="ToDoList\static\content\" />
@@ -43,6 +50,7 @@
     <Folder Include="ToDoList\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="mongodbAction\config.json" />
     <Content Include="requirements.txt" />
     <Content Include="ToDoList\static\content\bootstrap.css" />
     <Content Include="ToDoList\static\content\bootstrap.min.css" />
