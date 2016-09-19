@@ -3,7 +3,6 @@ Routes and views for the flask application.
 """
 from datetime import datetime
 from flask import *
-from mongodbAction import MongoAction
 from ToDoList import app
 
 @app.route('/')
@@ -36,8 +35,11 @@ def about():
         message='Your application description page.'
     )
 
-@app.route('/api/test/<int:name>',methods=['POST','GET'])
-def test(name=None):
-    dbaction=MongoAction.MongoAction()
-    return jsonify(dbaction.dbInsert({"name":name,"age":15}))
+@app.route('/ToDoList',methods=['GET'])
+def ToDoList():
+    return render_template(
+            'ToDoList.html',
+            title='ToDoList',
+            bytearray=datetime.now().year
+        )
 
